@@ -36,6 +36,7 @@ export interface TreeNode<K, D> {
   label: string;
   nextSibling: TreeNode<K, D> | null;
   previousSibling: TreeNode<K, D> | null;
+  isCurrent: boolean;
 }
 
 /** incomplete, you can convert to any to use other properties */
@@ -209,7 +210,8 @@ export declare class ElTree<K = any, D = TreeData> extends ElementUIComponent {
   setCurrentKey(key: K): void;
 
   /**
-   * Return the highlight node (null if no node is highlighted)
+   * Return the highlight node data (null if no node is highlighted)
+   * @todo the name of methods should be getCurrentNodeData
    */
   getCurrentNode(): D;
 

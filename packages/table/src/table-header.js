@@ -210,7 +210,8 @@ export default {
 
   mounted() {
     const { prop, order } = this.defaultSort;
-    this.store.commit('sort', { prop, order });
+    const init = true;
+    this.store.commit('sort', { prop, order, init });
   },
 
   beforeDestroy() {
@@ -468,7 +469,9 @@ export default {
 
     handleSortClick(event, column, givenOrder) {
       event.stopPropagation();
-      let order = givenOrder || this.toggleOrder(column);
+      let order = column.order === givenOrder
+        ? null
+        : (givenOrder || this.toggleOrder(column));
 
       let target = event.target;
       while (target && target.tagName !== 'TH') {
