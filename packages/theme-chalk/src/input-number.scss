@@ -26,8 +26,8 @@
     width: $--input-height;
     height: auto;
     text-align: center;
-    background: $--background-color-base;
-    color: $--color-text-regular;
+    background: $--background-color-secondary;
+    color: $--color-text-secondary;
     cursor: pointer;
     font-size: 13px;
 
@@ -60,7 +60,7 @@
   @include when(disabled) {
     @include e((increase, decrease)) {
       border-color: $--disabled-border-base;
-      color: $--disabled-border-base;
+      color: $--color-text-placeholder;;
 
       &:hover {
         color: $--disabled-border-base;
