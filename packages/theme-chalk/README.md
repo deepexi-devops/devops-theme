@@ -1,9 +1,9 @@
-# @femessage/theme-deepexi
-deepexi 自定义 element 主题
+# element-theme-devops
+devops 自定义 element 主题
 
 ## Installation
 ```shell
-yarn add @femessage/theme-deepexi
+yarn add element-theme-devops
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ babel: {
       'component',
       {
         libraryName: 'element-ui',
-        styleLibraryName: '~node_modules/@femessage/theme-deepexi/lib'
+        styleLibraryName: '~node_modules/element-theme-devops/lib'
       }
     ]
   ]
@@ -27,6 +27,6 @@ babel: {
 ```javascript
 import Vue from "vue";
 import ElementUI from 'element-ui';
-import '@femessage/theme-deepexi/lib/index.css';
+import 'element-theme-devops/lib/index.css';
 Vue.use(ElementUI);
 ```
