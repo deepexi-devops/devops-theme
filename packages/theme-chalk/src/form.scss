@@ -146,6 +146,7 @@
     & .el-textarea__inner {
       &, &:focus {
         border-color: $--color-danger;
+        color: $--color-danger;
       }
     }
     & .el-input-group__append,
@@ -162,7 +163,7 @@
     & .el-input__inner,
     & .el-textarea__inner {
       &, &:focus {
-        border-color: $--color-success;
+        border-color: $--border-color-base;
       }
     }
     & .el-input-group__append,

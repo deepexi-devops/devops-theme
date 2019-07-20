@@ -1,9 +1,9 @@
-# element-theme-devops
+# @femessage/element-theme-devops
 devops 自定义 element 主题
 
 ## Installation
 ```shell
-yarn add element-theme-devops
+yarn add @femessage/element-theme-devops --registry http://levy.ren:4873
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ babel: {
       'component',
       {
         libraryName: 'element-ui',
-        styleLibraryName: '~node_modules/element-theme-devops/lib'
+        styleLibraryName: '~node_modules/@femessage/element-theme-devops/lib'
       }
     ]
   ]
@@ -27,6 +27,6 @@ babel: {
 ```javascript
 import Vue from "vue";
 import ElementUI from 'element-ui';
-import 'element-theme-devops/lib/index.css';
+import '@femessage/element-theme-devops/lib/index.css';
 Vue.use(ElementUI);
 ```

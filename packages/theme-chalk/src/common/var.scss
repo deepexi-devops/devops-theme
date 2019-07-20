@@ -110,13 +110,13 @@ $--font-size-extra-large: 20px !default;
 /// fontSize|1|Font Size|0
 $--font-size-large: 18px !default;
 /// fontSize|1|Font Size|0
-$--font-size-medium: 16px !default;
+$--font-size-medium: 14px !default;
 /// fontSize|1|Font Size|0
 $--font-size-base: 14px !default;
 /// fontSize|1|Font Size|0
-$--font-size-small: 13px !default;
+$--font-size-small: 12px !default;
 /// fontSize|1|Font Size|0
-$--font-size-extra-small: 12px !default;
+$--font-size-extra-small: 10px !default;
 /// fontWeight|1|Font Weight|1
 $--font-weight-primary: 500 !default;
 /// fontWeight|1|Font Weight|1
@@ -463,15 +463,15 @@ $--input-disabled-placeholder-color: $--color-text-placeholder !default;
 /// fontSize||Font|1
 $--input-medium-font-size: 14px !default;
 /// height||Other|4
-$--input-medium-height: 40px !default;
+$--input-medium-height: 36px !default;
 /// fontSize||Font|1
-$--input-small-font-size: 13px !default;
+$--input-small-font-size: 12px !default;
 /// height||Other|4
-$--input-small-height: 36px !default;
+$--input-small-height: 32px !default;
 /// fontSize||Font|1
-$--input-mini-font-size: 12px !default;
+$--input-mini-font-size: 10px !default;
 /// height||Other|4
-$--input-mini-height: 32px !default;
+$--input-mini-height: 28px !default;
 
 /* Cascader
 -------------------------- */
@@ -530,7 +530,7 @@ $--button-padding-vertical: 12px !default;
 $--button-padding-horizontal: 16px !default; // 20
 
 /// fontSize||Font|1
-$--button-medium-font-size: $--font-size-base !default;
+$--button-medium-font-size: $--font-size-medium !default;
 /// borderRadius||Border|2
 $--button-medium-border-radius: $--border-radius-base !default;
 /// padding||Spacing|3
@@ -539,14 +539,14 @@ $--button-medium-padding-vertical: 10px !default;
 $--button-medium-padding-horizontal: 16px !default; // 20
 
 /// fontSize||Font|1
-$--button-small-font-size: 12px !default;
+$--button-small-font-size: $--font-size-small !default;
 $--button-small-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
 $--button-small-padding-vertical: 9px !default;
 /// padding||Spacing|3
 $--button-small-padding-horizontal: 12px !default; // 15
 /// fontSize||Font|1
-$--button-mini-font-size: 12px !default;
+$--button-mini-font-size: $--font-size-extra-small !default;
 $--button-mini-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
 $--button-mini-padding-vertical: 7px !default;
@@ -644,8 +644,8 @@ $--table-border: 1px solid $--table-border-color !default;
 $--table-text-color: $--color-text-regular !default;
 $--table-font-color: $--color-text-regular !default;
 /// color||Color|0
-$--table-header-color: $--color-text-secondary !default;
-$--table-header-font-color: $--color-text-secondary !default;
+$--table-header-color: $--color-text-regular !default;
+$--table-header-font-color: $--color-text-regular !default;
 /// color||Color|0
 $--table-row-hover-background: #f6f8fb !default; // $--background-color-base
 $--table-row-hover-background-color: #f6f8fb !default; // $--background-color-base
