@@ -17,12 +17,7 @@ deploy:
   keep-history: true
   local-dir: examples/element-ui
   github-token: $GITHUB_TOKEN
-  on:
-    branch: feature-theme-devops
-
 - provider: npm
   email: 1063218918@qq.com
   api_key: $NPM_TOKEN
-  on:
-    branch: feature-theme-devops
   skip-cleanup: true
