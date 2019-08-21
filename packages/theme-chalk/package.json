@@ -1,5 +1,5 @@
 {
-  "name": "@femessage/element-theme-devops",
+  "name": "@deepexi/element-theme-devops",
   "version": "2.8.2",
   "description": "Element component chalk theme.",
   "main": "lib/index.css",
