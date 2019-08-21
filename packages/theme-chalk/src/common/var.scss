@@ -469,9 +469,9 @@ $--input-small-font-size: 12px !default;
 /// height||Other|4
 $--input-small-height: 32px !default;
 /// fontSize||Font|1
-$--input-mini-font-size: 10px !default;
+$--input-mini-font-size: 12px !default;
 /// height||Other|4
-$--input-mini-height: 28px !default;
+$--input-mini-height: 32px !default;
 
 /* Cascader
 -------------------------- */
@@ -549,7 +549,7 @@ $--button-small-padding-horizontal: 12px !default; // 15
 $--button-mini-font-size: $--font-size-extra-small !default;
 $--button-mini-border-radius: #{$--border-radius-base - 1} !default;
 /// padding||Spacing|3
-$--button-mini-padding-vertical: 7px !default;
+$--button-mini-padding-vertical: 9px !default;
 /// padding||Spacing|3
 $--button-mini-padding-horizontal: 12px !default; // 15
 
