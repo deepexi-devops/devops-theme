@@ -13,13 +13,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ElementUI/theme-devops.git"
+    "url": "git+https://github.com/wuyanping/element.git"
   },
   "keywords": [
     "element",
     "theme"
   ],
-  "homepage": "https://github.com/ElementUI/theme-devops#readme",
+  "homepage": "https://github.com/wuyanping/element.git#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-cssmin": "^0.1.7",
