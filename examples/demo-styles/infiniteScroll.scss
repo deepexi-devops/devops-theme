@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+  overflow: auto;
 
   .infinite-list-item {
     display: flex;
@@ -20,6 +21,7 @@
 
 .infinite-list-wrapper {
   height: 300px;
+  overflow: auto;
   text-align: center;
 
   .list{

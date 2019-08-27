@@ -240,14 +240,11 @@
     beforeRouteUpdate(to, from, next) {
       next();
       setTimeout(() => {
-        const toPath = to.path;
-        const fromPath = from.path;
-        if (toPath === fromPath && to.hash) {
-          this.goAnchor();
-        }
-        if (toPath !== fromPath) {
+        if (location.href.match(/#/g).length < 2) {
           document.documentElement.scrollTop = document.body.scrollTop = 0;
           this.renderAnchorHref();
+        } else {
+          this.goAnchor();
         }
       }, 100);
     }

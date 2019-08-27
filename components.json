@@ -78,6 +78,5 @@
   "infinite-scroll": "./packages/infinite-scroll/index.js",
   "page-header": "./packages/page-header/index.js",
   "cascader-panel": "./packages/cascader-panel/index.js",
-  "avatar": "./packages/avatar/index.js",
-  "drawer": "./packages/drawer/index.js"
+  "avatar": "./packages/avatar/index.js"
 }

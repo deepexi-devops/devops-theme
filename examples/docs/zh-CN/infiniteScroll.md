@@ -7,7 +7,7 @@
 :::demo
 ```html
 <template>
-  <ul class="infinite-list" v-infinite-scroll="load" style="overflow:auto">
+  <ul class="infinite-list" v-infinite-scroll="load">
     <li v-for="i in count" class="infinite-list-item">{{ i }}</li>
   </ul>
 </template>
@@ -34,7 +34,7 @@
 :::demo
 ```html
 <template>
-  <div class="infinite-list-wrapper" style="overflow:auto">
+  <div class="infinite-list-wrapper">
     <ul
       class="list"
       v-infinite-scroll="load"

@@ -34,8 +34,4 @@ export declare class ElImage extends ElementUIComponent {
   referrerPolicy: string
 
   $slots: ImageSlots
-
-  previewSrcList: string[]
-
-  zIndex: number
 }

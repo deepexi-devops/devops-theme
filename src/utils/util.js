@@ -122,10 +122,6 @@ export const isEdge = function() {
   return !Vue.prototype.$isServer && navigator.userAgent.indexOf('Edge') > -1;
 };
 
-export const isFirefox = function() {
-  return !Vue.prototype.$isServer && !!window.navigator.userAgent.match(/firefox/i);
-};
-
 export const autoprefixer = function(style) {
   if (typeof style !== 'object') return style;
   const rules = ['transform', 'transition', 'animation'];
@@ -220,22 +216,3 @@ export const isEmpty = function(val) {
 
   return false;
 };
-
-export function rafThrottle(fn) {
-  let locked = false;
-  return function(...args) {
-    if (locked) return;
-    locked = true;
-    window.requestAnimationFrame(_ => {
-      fn.apply(this, args);
-      locked = false;
-    });
-  };
-}
-
-export function objToArray(obj) {
-  if (Array.isArray(obj)) {
-    return obj;
-  }
-  return isEmpty(obj) ? [] : [obj];
-}
