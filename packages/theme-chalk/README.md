@@ -1,9 +1,9 @@
-# @deepexi/element-theme-devops
+# @deepexi-devops/element-theme
 devops 自定义 element 主题
 
 ## Installation
 ```shell
-yarn add @deepexi/element-theme-devops
+yarn add @deepexi-devops/element-theme
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ babel: {
       'component',
       {
         libraryName: 'element-ui',
-        styleLibraryName: '~node_modules/@deepexi/element-theme-devops/lib'
+        styleLibraryName: '~node_modules/@deepexi-devops/element-theme/lib'
       }
     ]
   ]
@@ -27,6 +27,6 @@ babel: {
 ```javascript
 import Vue from "vue";
 import ElementUI from 'element-ui';
-import '@deepexi/element-theme-devops';
+import '@deepexi-devops/element-theme';
 Vue.use(ElementUI);
 ```
