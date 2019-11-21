@@ -3,7 +3,7 @@ element-ui版本为2.4.11
 ## 二次开发
 
 ```sh
-#安装 
+#安装
 #如果是windows用户, 请先删除yarn.lock再安装，注意不要提交yarn.lock
 yarn
 
@@ -187,9 +187,9 @@ Support us with a monthly donation and help us continue our activities. [[Become
 ## 安装主题
 ## Join Discusion Group
 
-Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discusion group :
+Scan the QR code using [Dingtalk App](https://www.dingtalk.com/) to join in discussion group :
 
-<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/60150281-95183f80-980a-11e9-88a8-d324c5e8d83b.png" width="300">
+<img alt="Join Discusion Group" src="https://user-images.githubusercontent.com/17680888/66537329-9a4b9100-eb52-11e9-9d99-65469cfdae58.jpeg" width="300">
 
 [在nuxt框架中使用自定义主题](https://femessage.github.io/element/#/zh-CN/component/custom-theme)
 
