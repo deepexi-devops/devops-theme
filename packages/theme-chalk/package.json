@@ -1,6 +1,6 @@
 {
   "name": "@deepexi-devops/element-theme",
-  "version": "2.12.2",
+  "version": "2.12.3",
   "description": "Element component deepexi devops theme.",
   "main": "lib/index.css",
   "style": "lib/index.css",
